@@ -1,1 +1,9 @@
 include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - avoid_print
+    - prefer_const_constructors
+    - prefer_final_locals
+    - unnecessary_new
+    - unnecessary_this
